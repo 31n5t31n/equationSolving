@@ -7,8 +7,8 @@ int main()
     scanf("%f",&a);
     do
     {
-        /* code */printf("desole la premiere valeur ne peut etre nulle")
-    } while (x==0);
+        /* code */printf("desole la premiere valeur ne peut etre nulle");
+    } while (a==0);
     printf("Veuillez entrez les deux autres valeurs");
     scanf("%f%f",&b,&c);
     printf("Votre equqtion est de la forme %fx2+%fx+%f", a,b,c);
@@ -24,7 +24,7 @@ int main()
     }    
     else
     {
-        char c;
+        char r;
         printf("Votre equation n'admet pas de solution dans R, souhaitez-vous voir les solutions dans C (Y/N)");
         fflush (stdin);
         r=getchar();
@@ -34,5 +34,3 @@ int main()
         
 
     }
-
-}
