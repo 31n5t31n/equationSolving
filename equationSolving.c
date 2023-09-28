@@ -6,14 +6,14 @@ int main()
     printf("*****Ce programme vous permet de resoudre des equations du second degres*****\n");
     printf("Veuillez entrez la premiere valeur\t");
     scanf("%f",&a);
-    do
+    while (a==0)
     {
         printf("desole la premiere valeur ne peut etre nulle\t");
         scanf("%f",&a);
-    } while (a==0);
+    }
     printf("Veuillez entrez les deux autres valeurs\t");
     scanf("%f%f",&b,&c);
-    printf("Votre equation est de la forme %fx2+%fx+%f\n", a,b,c);
+    printf("Votre equation est de la forme %.2fx2+%.2fx+%.2f\n", a,b,c);
     delta=b*b-4*a*c;
     if(delta==0)
         printf("Votre equqtion admet une solution double x0= %.2f\n", -b/2*a);
@@ -30,9 +30,10 @@ int main()
         printf("Votre equation n'admet pas de solution dans R, souhaitez-vous voir les solutions dans C (Y/N)\n");
         fflush (stdin);
         r=getchar();
-        if(r== 'Y')
+        if(r== 'Y' || r=='y')
             printf(".............FORGET FORMULAS..............");
+        else if (r=='N' || r=='n')
+            printf(".........See you soon............");
     }
-        
-
-    }
+    
+}
