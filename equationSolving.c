@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<math.h>
-int main()
+
+void eqnSolving()
 {
     float a,b,c,delta;
     printf("*****Ce programme vous permet de resoudre des equations du second degres*****\n");
@@ -16,12 +17,12 @@ int main()
     printf("Votre equation est de la forme %.2fx2+%.2fx+%.2f\n", a,b,c);
     delta=b*b-4*a*c;
     if(delta==0)
-        printf("Votre equqtion admet une solution double x0= %.2f\n", -b/2*a);
+        printf("Votre equation admet une solution double x0= %.2f\n", -b/2*a);
     else if (delta>0)
     {
         float x1,x2;
-        x1= (-b- sqrt(delta) ) /2*a;
-        x2= (-b+ sqrt(delta) ) /2*a;
+        x1= (-b- sqrt(delta) ) /(2*a);
+        x2= (-b+ sqrt(delta) ) /(2*a);
         printf("Votre equation admet deux solutions x1 = %.2f  et x2 = %.2f\n",x1,x2);
     }    
     else
@@ -36,4 +37,9 @@ int main()
             printf(".........See you soon............");
     }
     
+}
+int main()
+{
+    eqnSolving();
+    return 0;
 }

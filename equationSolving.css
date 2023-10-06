@@ -32,18 +32,31 @@ svg {
 	width: 150px;
 }
 body{
-    background: #1a1425;
+    background-color: rgb(36, 6, 65);
+    background-size: cover;
 }
 p
 {
     font-size: 50px;
-    color: aliceblue;
+    color: rgb(243, 249, 255);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
-    padding-top: 100px;
+    margin-top: 30%;
 }
 p:hover
 {
     font-size:  60px;
     color: pink;
+}
+.logo img
+{
+    height: 200px;
+    width: 200px;
+    margin: auto;
+}
+.logo
+{
+    text-align: center;
+    font-size: 55px;
+    color: bisque;
 }
