@@ -13,7 +13,7 @@ typedef struct {
 typedef struct {
     Imaginary root1;
     Imaginary root2;
-    char type[32];
+    char type[32]; // type of roots (real, imaginary, equal)
 } Roots;
 
 

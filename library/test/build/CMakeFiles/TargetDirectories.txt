@@ -1,0 +1,3 @@
+/Volumes/HDD/Project/Kasse/equationSolving/library/test/build/CMakeFiles/main.dir
+/Volumes/HDD/Project/Kasse/equationSolving/library/test/build/CMakeFiles/edit_cache.dir
+/Volumes/HDD/Project/Kasse/equationSolving/library/test/build/CMakeFiles/rebuild_cache.dir

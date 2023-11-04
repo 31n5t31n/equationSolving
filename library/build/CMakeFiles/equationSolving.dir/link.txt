@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/cc  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.6 -dynamiclib -Wl,-headerpad_max_install_names -o libequationSolving.dylib -install_name @rpath/libequationSolving.dylib CMakeFiles/equationSolving.dir/equationSolving.c.o 
